@@ -1,0 +1,5 @@
+['ENGINE_RPM', 'THROTTLE_POS', 'SPEED', 'ENGINE_COOLANT_TEMP', 
+ 'MAF', 'INTAKE_MANIFOLD_PRESSURE', 'TIMING_ADVANCE', 'AIR_INTAKE_TEMP']
+
+Link to the dataset:
+ https://www.kaggle.com/code/mateusgustavo/starter-obd-ii-datasets-94b44b33-f#Introduction

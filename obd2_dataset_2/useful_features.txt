@@ -1,0 +1,8 @@
+Updated feature names after translation from Portugese:
+Battery voltage [V],Engine load [%],Engine coolant temperature [°C],Short term fuel trim (Bank 1) [%],Long term fuel trim (Bank 1) [%],Intake manifold absolute pressure [kPa],Engine RPM [rpm],Vehicle speed [km/h],Ignition timing advance [°],Intake air temperature [°C],Absolute throttle position [%],O2 sensor voltage (Bank 1 - Sensor 2) [V],Distance traveled with MIL on [km],Evaporative purge commanded [%],Fuel level input [%],Number of warm-ups since DTCs cleared,Distance since DTCs cleared [km],Barometric pressure [kPa],O2 sensor equivalence ratio (Bank 1 - Sensor 1),O2 sensor current (Bank 1 - Sensor 1) [mA],Catalyst temperature (Bank 1 - Sensor 1) [°C],Control module voltage [V],Absolute load value [%],Commanded air-fuel equivalence ratio,Relative throttle position [%],Ambient air temperature [°C],Absolute throttle position B [%],Accelerator pedal position D [%],Accelerator pedal position E [%],Commanded throttle actuator control [%],Long term fuel trim (Bank 1 - Secondary O2 sensor) [%],Steering wheel angle [°],Steering wheel angle speed [°/s]
+
+link to the dataset:
+https://www.kaggle.com/datasets/isaygerardozamora/obd-ii-and-can-based-driving-behavior-dataset
+
+Useful features:
+Engine coolant temperature [°C],Engine RPM [rpm],Intake manifold absolute pressure [kPa],Ignition timing advance [°],Intake air temperature [°C],Absolute throttle position [%],Vehicle speed [km/h],Battery voltage [V]
