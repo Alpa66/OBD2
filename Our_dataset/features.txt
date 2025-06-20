@@ -1,0 +1,63 @@
+    • RPM – частота вращения коленчатого вала двигателя, мин-1;
+    • THR – положение дросселя, %;
+    • Fdet – признак обнаружения детонации, б/в;
+    • Speed – скорость движения автомобиля, км/ч;
+    • Twat – температура охлаждающей жидкости, оС;
+    • AFR – состав топливо-воздушной смеси, б/в;
+    • INJ – длительность управляющего импульса топливных форсунок (время впрыска), мс;
+    • AIR – массовый расход воздуха, кг/час;
+    • GBC – цикловое наполнение воздухом, мг/цикл;
+    • ADC_LAM – напряжение на датчике кислорода, В;
+    • UOZ – угол опережения зажигания, оПКВ до ВМТ;
+    • Press – абсолютное давление во впускном трубопроводе, мбар;
+    • COEFF – коэфф. коррекции времени впрыскивания топлива, б/в;
+    • AFR-LC – отношение воздух/топливо по широкополосный датчик кислорода (не используется), б/в;
+    • ADC_MAF – АЦП расходомера воздуха, б/в;
+    • Тair – температура воздуха во впускном трубопроводе, оС;
+    • SSM – текущее положение регулятора холостого хода;
+    • ACC_ENG – (не используется);
+    • Fxx – признак холостого хода (1 – холостой ход; 0 – нагрузочный режим), б/в;
+    • Ubat – напряжение бортовой сети, В;
+    • TPS – положение педали акселератора, %;
+    • Gear – номер включенной передачи.
+
+RPM – Engine crankshaft rotation speed (revolutions per minute, min⁻¹): Measures how fast the engine is running.
+THR – Throttle position (%): How much the throttle valve is open (0% = closed, 100% = fully open).
+Fdet – Knock detection flag (binary: yes/no): Indicates if engine knocking (detonation) is detected.
+Speed – Vehicle speed (km/h): Current speed of the car.
+Twat – Coolant temperature (°C): Temperature of the engine coolant.
+AFR – Air-fuel ratio (unitless): Ratio of air to fuel in the combustion mixture.
+INJ – Fuel injector pulse width (milliseconds, ms): Duration of fuel injection per cycle.
+AIR – Air mass flow rate (kg/hour): Amount of air entering the engine per hour.
+GBC – Air mass per engine cycle (mg/cycle): Air intake per single engine cycle.
+ADC_LAM – Oxygen sensor voltage (Volts, V): Voltage signal from the O₂ sensor (lambda sensor).
+UOZ – Ignition timing angle (degrees before top dead center, °BTDC): When the spark plug fires relative to piston position
+Press – Intake manifold absolute pressure (millibar, mbar): Pressure inside the intake manifold.
+COEFF – Fuel injection correction coefficient (unitless): Adjustment factor for fuel injection time.
+AFR-LC – Air-fuel ratio from a wideband O₂ sensor (unused, unitless): Advanced AFR measurement (not active in this system).
+ADC_MAF – Analog-to-digital converter (ADC) for air flow meter (unitless): Raw signal from the mass air flow (MAF) sensor.
+Tair – Intake air temperature (°C): Temperature of air entering the engine.
+SSM – Idle speed control valve position (unitless): Current state of the idle air control valve.
+ACC_ENG – (Unused): Reserved parameter (no function here).
+Fxx – Idle mode flag (binary: 1 = idle, 0 = under load): Indicates if the engine is idling.
+Ubat – Vehicle battery voltage (Volts, V): Electrical system voltage.
+TPS – Accelerator pedal position (%): How much the gas pedal is pressed (0–100%).
+Gear – Current gear number: Which gear is engaged (e.g., 1–5 for manual transmission).
+
+* From the call on 26.06.2025
+So we are focusing on the engine oil degradation, but we can publish using only that so we need another thing maybe overall diagnostics for the health of the car and the engine and maybe characterize the drivers behavior based on this data. Some kind of autoencoder, supervised or self-supervised learning should be used, therefore I should get familiar with the self supervised learning in general.
+
+
+* From the call on 04.06.2025
+1- What is the deadline for the experiments (until the end of July)
+2- We will train on the test dataset apparently
+
+we should explore the articles that work on this obd2
+I should put the link to the exel file in the github
+
+
+From the call on 17.06.2025
+* We should also choose the journal for publication
+* I should also add the link to the last dataset in the github repo
+
+
