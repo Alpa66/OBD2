@@ -1,0 +1,6 @@
+Deleted the file with the name: live6.csv because it has all nan values in the last two columns
+
+Link to the repository:
+    https://github.com/eron93br/carOBD/tree/master
+
+Note: Dataset final file name used in the jupyter notebook is "dataset_3"

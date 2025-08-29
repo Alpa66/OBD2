@@ -1,0 +1,1 @@
+Here we have clean data, however we don't have trip number or the possiblity to extract it because there is no time data. Therefore we need to figure out a way to handle it in the contrastive learning. We have by the way a label of the different drivers that are driving the car, however using it in the training process does not make much sense.
